@@ -22,8 +22,8 @@ public class NewClass {
         return metier;
     }
 
-    public void setMetier(String metiers) {
-        this.metier = metiers;
+    public void setmetier(String metier) {
+        this.metier = metier;
     }
 
     
