@@ -22,7 +22,7 @@ public class NewClass {
         return metier;
     }
 
-    public void setMetier(String metier) {
+    public void setmetier(String metier) {
         this.metier = metier;
     }
 
