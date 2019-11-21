@@ -11,8 +11,18 @@
 public class NewClass {
     private String nom;
     private String prenom;
+    private String metier;
     private int age;
 
+    public String getMetier() {
+        return metier;
+    }
+
+    public void setMetier(String metier) {
+        this.metier = metier;
+    }
+
+    
     public String getNom() {
         return nom;
     }
