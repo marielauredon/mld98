@@ -13,6 +13,10 @@ public class NewClass {
     private String prenom;
     private String metier;
     private int age;
+    
+    public NewClass(String n){
+        nom=n;
+    }
 
     public String getMetier() {
         return metier;
