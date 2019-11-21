@@ -11,6 +11,7 @@
 public class NewClass {
     private String nom;
     private String prenom;
+    private int age;
 
     public String getNom() {
         return nom;
@@ -28,6 +29,12 @@ public class NewClass {
         this.prenom = prenom;
     }
 
-    
+    public void setAge(int age){
+        this.age=age;
+    }
+
+    public int getAge(){
+        return age;
+    } 
 
 }
