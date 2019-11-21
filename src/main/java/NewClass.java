@@ -9,5 +9,18 @@
  * @author mdon
  */
 public class NewClass {
+    private String nom;
+    private String prenom;
+
     
+
+
+public String getNom() {
+    return nom;
+}
+
+public String getPrenom(){
+    return prenom;
+}
+
 }
